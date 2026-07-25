@@ -20,10 +20,10 @@
           <div class="calendar-grid" id="calendarGrid"></div>
         </section>
         <button class="jump-today" id="jumpToday">Today <span>&rarr;</span></button>
-        <div class="sidebar-bottom"><div class="day-quote" id="calendarInsight">Choose a day,<br />then give it<br />some intention.</div><div class="profile"><span class="avatar">MG</span><span>My calendar</span><span class="chevron">&#8964;</span></div></div>
+        <div class="sidebar-bottom"><p class="byline">By: Martin Gayem</p></div>
       </aside>
       <section class="planner">
-        <header class="planner-header"><div><p class="eyebrow" id="todayLabel"></p><h1 id="dayTitle">Plan your <em>day.</em></h1></div><div class="header-actions"><button class="icon-button" id="themeButton" title="Change colour mood" aria-label="Change colour mood">&#9688;</button><button class="add-button" id="addButton"><span>+</span> Add task</button></div></header>
+        <header class="planner-header"><div><p class="eyebrow" id="todayLabel"></p><h1 id="dayTitle">Plan your <em>day.</em></h1></div><div class="header-actions"><button class="theme-toggle" id="themeButton" title="Switch to dark mode" aria-label="Switch to dark mode" aria-pressed="false"><span class="toggle-orbit"><span class="toggle-sun">&#9728;</span><span class="toggle-moon">&#9790;</span></span></button><button class="add-button" id="addButton"><span>+</span> Add task</button></div></header>
         <section class="moment-card"><div class="sun-wrap"><div class="sun"></div><div class="sun-rays"></div></div><div class="moment-copy"><p class="eyebrow">YOUR NEXT MOMENT</p><h2 id="nextTaskName">A clear day is waiting</h2><p id="nextTaskTime">Add something you want to make time for.</p></div><div class="progress-ring" aria-label="Day progress"><svg viewBox="0 0 44 44"><circle class="ring-base" cx="22" cy="22" r="18"/><circle class="ring-progress" id="ringProgress" cx="22" cy="22" r="18"/></svg><span id="progressText">0%</span></div></section>
         <div class="timeline-heading"><h2 id="flowTitle">Today&apos;s flow</h2><span id="taskSummary">0 tasks &middot; 0 complete</span></div>
         <div class="timeline" id="timeline" aria-live="polite"></div><button class="empty-add" id="emptyAdd"><span>+</span> Add something to this day</button>
